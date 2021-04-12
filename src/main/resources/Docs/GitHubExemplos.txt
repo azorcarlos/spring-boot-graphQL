@@ -1,0 +1,5 @@
+Olá pessoal, lembrando que o código dos exemplos está o GitHub.
+
+https://github.com/rlechetaudemy/springboot_graphql
+
+Existe uma "branch" para cada seção do curso. Se algo não ficar claro, ou se não encontrar algum código é só avisar :-)

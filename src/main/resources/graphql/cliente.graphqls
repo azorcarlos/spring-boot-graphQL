@@ -1,0 +1,22 @@
+type Cliente {
+    id:Int
+    nome:String
+    email:String
+
+    compras:[Compra]!
+}
+## Object
+### Não precisa expandir
+input ClienteInput{
+    id:Int
+    nome:String
+    email:String
+}
+extend type Query {
+    cliente(id:ID): Cliente
+    clientes:[Cliente]
+}
+extend type Mutation {
+    saveCliente(cliente:ClienteInput!):Cliente!
+    deleteCliente(id:ID):Boolean!
+}
